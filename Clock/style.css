@@ -1,0 +1,268 @@
+@font-face {
+    font-family: digital;
+    src: url(fonts/ds_digital/DS-DIGII.TTF);
+}
+@font-face {
+    font-family: digital2;
+    src: url(fonts/ds_digital/DS-DIGIB.TTF);
+}
+
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    position: relative;
+}
+
+
+.container {
+    height: 50vh;
+    position: relative;
+}
+.buttons{
+    display: flex;
+    
+    margin-bottom: 60px ;
+    gap: 10px;
+   
+}
+button{
+    display: flex;
+    background: none;
+    cursor: pointer;
+
+    border: 2px solid rgb(77, 72, 72) ;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1.5em;
+font-family: digital2;
+
+   
+    
+}
+.gre{
+    
+    background:linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    
+    padding: 10px;
+    border-radius: 5px;
+}
+.black{
+    position: relative;
+   background-color: black;
+   border-radius: 5px;
+
+   height: 200px;
+   width: 400px;
+   display: grid;
+}
+
+
+.test{
+    color: white;
+    font-size: 4rem;
+}
+
+.digitalclock {
+   position: relative;
+    display: flex;
+    background:-webkit-linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+     -webkit-text-fill-color: transparent;
+    height: 200px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-family: digital;
+
+
+
+}
+
+
+
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.dot {
+    animation: blink 1s infinite;
+    background:-webkit-linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+     -webkit-text-fill-color: transparent;
+
+}
+.textblack{
+    position: relative;
+    bottom: 20px;
+    justify-self: center;
+    align-self: center;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+}
+.day{
+   
+   
+    background:-webkit-linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+     -webkit-text-fill-color: transparent;
+     font-size: 2rem;
+     font-family:digital2 ;
+     
+}
+
+@media screen and (max-width: 480px){
+    body{
+        background:black;
+    }
+    .digitalclock {
+   
+    height: 150px;
+    width: 300px;
+    font-size: 3rem;
+    }
+    
+.black{
+   
+
+   height: 150px;
+   width: 300px;
+}
+
+
+
+}
+
+.active-text{
+background:-webkit-linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+
+
+.analogcontainer{
+    background:linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.analogclock {
+    position: relative;
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+
+.middot {
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    border-radius: 50%;
+    border: 6px solid black;
+    z-index: 10;
+
+}
+
+.hr {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform-origin: left center;
+    transform: translateY(-50%);
+    width: 25%;
+    height: 4px;
+    background:linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+
+}
+
+.min {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform-origin: left center;
+    transform: translateY(-50%);
+    width: 30%;
+    height: 3px;
+    background:linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+
+
+.sec {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform-origin: left center;
+    transform: translateY(-50%);
+    width: 35%;
+    height: 2px;
+    background:linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+
+}
+
+.number{
+    background: -webkit-linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: digital2;
+    font-size: 2rem;
+   
+   
+
+}
+
+.analogday{
+    position: absolute;
+    top: 100px;
+    background: -webkit-linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: digital2;
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+
+.analogdate{
+    position: absolute;
+    bottom: 100px;
+    background: -webkit-linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: digital2;
+    font-size: 1.5rem;
+    letter-spacing: 8px;
+}
+

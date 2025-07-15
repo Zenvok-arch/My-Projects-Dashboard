@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Solar System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Our Solar System</h1>
+        <p>Click over planets to learn fun facts!</p>
+    </header>
+
+    <main>
+        <div class="solar-system">
+            <!-- The Sun - Center of our system -->
+            <div class="celestial-body sun" id="sun">
+                <div class="sun-corona"></div>
+            </div>
+
+            <!-- Mercury -->
+            <div class="orbit mercury-orbit">
+                <div class="orbit-rotation mercury-or">
+                    <div class="celestial-body planet mercury" id="mercury"></div>
+                </div>
+            </div>
+
+            <!-- Venus -->
+            <div class="orbit venus-orbit">
+                <div class="orbit-rotation venus-or">
+
+                    <div class="celestial-body planet venus" id="venus"></div>
+                </div>
+            </div>
+
+            <!-- Earth with Moon -->
+            <div class="orbit earth-orbit">
+                <div class="orbit-rotation earth-or">
+
+                    <div class="celestial-body planet earth" id="earth">
+                </div>
+                    
+                </div>
+            </div>
+
+            <!-- Mars -->
+            <div class="orbit mars-orbit">
+                <div class="orbit-rotation mars-or">
+
+                    <div class="celestial-body planet mars" id="mars"></div>
+                </div>
+            </div>
+
+            <!-- Asteroid Belt (visual element) -->
+            <div class="asteroid-belt"></div>
+
+            <!-- Jupiter -->
+            <div class="orbit jupiter-orbit">
+                <div class="orbit-rotation jupiter-or">
+
+                    <div class="celestial-body planet jupiter" id="jupiter"></div>
+                </div>
+            </div>
+
+            <!-- Saturn with Rings -->
+            <div class="orbit saturn-orbit">
+                <div class="orbit-rotation saturn-or">
+
+
+                    <div class="celestial-body planet saturn" id="saturn">
+                        <div class="ring"></div>
+                </div>
+                </div>
+            </div>
+
+            <!-- Uranus -->
+            <div class="orbit uranus-orbit">
+                <div class="orbit-rotation uranus-or">
+
+                    <div class="celestial-body planet uranus" id="uranus"></div>
+                </div>
+            </div>
+
+            <!-- Neptune -->
+            <div class="orbit neptune-orbit">
+                <div class="orbit-rotation neptune-or">
+
+                    <div class="celestial-body planet neptune" id="neptune"></div>
+                </div>
+            </div>
+
+            <!-- Pluto (Dwarf Planet) -->
+            <div class="orbit pluto-orbit">
+    <div class="orbit-rotation pluto-or">
+        <div class="celestial-body planet pluto" id="pluto"></div>
+    </div>
+</div>
+
+        <!-- Information Panel -->
+       <div class="info-panel" id="infoPanel">
+    <div class="info-content">
+        <h2 class="planet-name" id="planetName">Planet Name</h2>
+        <p class="planet-info" id="planetInfo">Fun fact will appear here.</p>
+        <button class="close-btn" id="closeBtn">×</button>
+    </div>
+</div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

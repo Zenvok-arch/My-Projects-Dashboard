@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+}
+
+
+body {
+
+    background: black;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin: 40px 0;
+}
+
+.solar-system {
+    position: relative;
+    width: 90vmin;
+    height: 90vmin;
+    max-width: 800px;
+    max-height: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sun {
+    position: absolute;
+    height: 12%;
+    width: 12%;
+    background: #FDB813;
+    border-radius: 50%;
+    box-shadow: 0 0 6vmin #FDB813, 0 0 100px #FF4500, 0 0 150px #FF6347;
+    z-index: 100;
+
+
+}
+
+.orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+
+
+.orbit-rotation {
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+.planet {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.mercury {
+
+    background: #b1b1b1;
+    height: 3vmin;
+    width: 3vmin;
+    z-index: 100;
+
+
+}
+.mercury-orbit {
+
+    height: 25%;
+    width: 25%;
+z-index: 95;
+
+}
+.mercury-or {
+    animation: rotate 10s linear infinite;
+}
+
+.venus-orbit {
+    height: 32%;
+    width: 32%;
+    z-index: 90;
+
+}
+
+.venus {
+    height: 3.5vmin;
+    width: 3.5vmin;
+    background: #e5c07b;
+}
+
+.venus-or {
+    animation: rotate 15s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.earth-orbit {
+    height: 40%;
+    width: 40%;
+    z-index: 85;
+
+}
+
+.earth {
+    height: 4vmin;
+    width: 4vmin;
+    background: #3fa7d6;
+}
+
+.earth-or {
+    animation: rotate 20s linear infinite;
+}
+
+.mars-orbit{
+    height: 48%;
+    width: 48%;
+    z-index: 80;
+}
+
+.mars{
+    height: 3.3vmin;
+    width: 3.3vmin;
+    background: #c1440e;
+}
+
+.mars-or{
+    animation: rotate 25s linear infinite;
+}
+
+.jupiter-orbit{
+    height: 60%;
+    width: 60%;
+    z-index: 75;
+}
+.jupiter{
+    height: 6vmin;
+    width: 6vmin;
+    background:#d9a066;
+}
+.jupiter-or{
+    animation: rotate 35s linear infinite;
+}
+
+.saturn-orbit{
+    height: 72%;
+    width: 72%;
+    z-index: 70;
+    
+}
+
+.saturn{
+height: 5vmin;
+width: 5vmin;
+background: #deb887;
+}
+
+.saturn-or{
+    animation: rotate 45s linear infinite;
+}
+
+.uranus-orbit{
+height: 81%;
+width: 81%;
+z-index: 65;
+}
+
+.uranus{
+height: 4vmin;
+width: 4vmin;
+background:#add8e6 ;
+}
+
+.uranus-or{
+ animation: rotate 55s linear infinite;
+
+}
+
+
+.neptune{
+height: 3.8vmin;
+width: 3.8vmin;
+background: #4169e1;
+}
+
+.neptune-orbit{
+height: 89%;
+width: 89%;
+z-index: 60;
+
+}
+
+.neptune-or{
+ animation: rotate 65s linear infinite;
+}
+
+.pluto{
+height: 2vmin;
+width: 2vmin;
+background: #aaaaaa;
+}
+
+.pluto-orbit{
+height: 98%;
+width: 98%;
+
+
+}
+
+.pluto-or{
+animation: rotate 75s linear infinite;
+}
+
+.info-panel{
+     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 999;
+}
+.info-content {
+    background: #222;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 300px;
+}
+.close-btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #ff6347;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
