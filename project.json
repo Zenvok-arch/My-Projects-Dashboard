@@ -33,5 +33,12 @@
         "img": "images/weather-1.png",
         "link": "Weather-App",
         "created": "2025-07-14"
+    },
+    {
+        "title": "Fake Windows",
+        "description": "A fake PC desktop page 🖥️ — just for fun! ⚠️ Warning: Not optimized for mobile devices.📱",
+        "img": "images/windowsfake.png",
+        "link": "windows/index.html",
+        "created": "2025-07-16"
     }
 ]

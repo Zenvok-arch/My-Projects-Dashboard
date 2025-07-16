@@ -49,10 +49,11 @@ header h3 {
     border-radius: 16px;
     background: #1e1e1e;
     padding: 1rem;
-    margin: 0 auto ;
+    margin: 0 auto;
     justify-content: center;
     transition: all 0.3s ease;
     max-width: 300px;
+
 }
 
 
@@ -117,17 +118,18 @@ header h3 {
 }
 
 .new {
-   position: absolute;
-  top: 20px;
-  right: 14px;
-  background: #07c59244;
-  color: #0bd6a0;
-  padding: 2px 6px;
-  font-size: 16px;
+    position: absolute;
+    top: 20px;
+    right: 14px;
+    background: #07c59244;
+    color: #0bd6a0;
+    padding: 2px 6px;
+    font-size: 16px;
     border-radius: 6px;
     margin-right: 5px;
     backdrop-filter: blur(10px);
 }
+
 /* .new {
     display: none;
 } */
