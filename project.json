@@ -1,44 +1,51 @@
 [
-    {
-        "title": "Spotify Player",
-        "description": "Just a simple try to clone the Spotify player UI — clean design, basic controls, and music",
-        "img": "images/spotify-clone.png",
-        "link": "https://spotifyclone-1hz.pages.dev/",
-        "created": "2025-06-25"
-    },
-    {
-        "title": "Clock",
-        "description": "A simple digital and analog clock with smooth, elegant animations for a clean time display.",
-        "img": "images/clock-1.png",
-        "link": "Clock",
-        "created": "2025-06-28"
-    },
-    {
-        "title": "Solar System",
-        "description": "A simple solar system page that shows each planet with a fun fact when clicked",
-        "img": "images/Solar-System.png",
-        "link": "Solar-System",
-        "created": "2025-07-03"
-    },
-    {
-        "title": "Dashboard",
-        "description": "A simple and clean dashboard design with an organized layout for easy navigation and quick insights.",
-        "img": "images/dashboard.png",
-        "link": "https://dashbord-1.pages.dev/",
-        "created": "2025-07-12"
-    },
-    {
-        "title": "Weather App",
-        "description": "A simple weather app — just enter the city name and voilà, instant weather updates!",
-        "img": "images/weather-1.png",
-        "link": "Weather-App",
-        "created": "2025-07-14"
-    },
-    {
-        "title": "Fake Windows",
-        "description": "A fake PC desktop page 🖥️ — just for fun! ⚠️ Warning: Not optimized for mobile devices.📱",
-        "img": "images/windowsfake.png",
-        "link": "windows/index.html",
-        "created": "2025-07-16"
-    }
+  {
+    "title": "Spotify Player",
+    "description": "Just a simple try to clone the Spotify player UI — clean design, basic controls, and music",
+    "img": "images/spotify-clone.png",
+    "link": "https://spotifyclone-1hz.pages.dev/",
+    "created": "2025-06-25"
+  },
+  {
+    "title": "Clock",
+    "description": "A simple digital and analog clock with smooth, elegant animations for a clean time display.",
+    "img": "images/clock-1.png",
+    "link": "Clock",
+    "created": "2025-06-28"
+  },
+  {
+    "title": "Solar System",
+    "description": "A simple solar system page that shows each planet with a fun fact when clicked",
+    "img": "images/Solar-System.png",
+    "link": "Solar-System",
+    "created": "2025-07-03"
+  },
+  {
+    "title": "Dashboard",
+    "description": "A simple and clean dashboard design with an organized layout for easy navigation and quick insights.",
+    "img": "images/dashboard.png",
+    "link": "https://dashbord-1.pages.dev/",
+    "created": "2025-07-12"
+  },
+  {
+    "title": "Weather App",
+    "description": "A simple weather app — just enter the city name and voilà, instant weather updates!",
+    "img": "images/weather-1.png",
+    "link": "Weather-App",
+    "created": "2025-07-14"
+  },
+  {
+    "title": "Fake Windows",
+    "description": "A fake PC desktop page 🖥️ — just for fun! ⚠️ Warning: Not optimized for mobile devices.📱",
+    "img": "images/windowsfake.png",
+    "link": "windows/index.html",
+    "created": "2025-07-16"
+  },
+  {
+    "title": "PassCool - Your Secure Vault",
+    "description": "A sleek and modern password manager to keep your digital life secure. Your keys, your vault. 🔑",
+    "img": "images/passcool.png",
+    "link": "https://password-manager-2.pages.dev/",
+    "created": "2025-08-28"
+  }
 ]
